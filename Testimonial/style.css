@@ -1,0 +1,102 @@
+*{
+	margin :0%;
+	padding: 0%;
+	box-sizing : border-box;
+	font-family: Arial, Helvetica, sans-serif;
+	color:white;
+}
+body{
+	background-image:url('img/testimonial.jpeg');
+	height: 100vh;
+	width: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size:cover;
+}
+.form{
+	height:500px;
+	width:400px;
+	border:2px dashed white;
+	transform:translate(-50%,-50%);
+	position:absolute;
+	left:50%;
+	top:50%;
+	backdrop-filter: blur(10px);
+	overflow:auto;
+}
+.name{
+	font-size:25px;
+	font-weight:600;
+	position:absolute;
+	left:200px;
+	top:30px;
+}
+img{
+	height:120px;
+	width:120px;
+	border-radius:50%;
+	position:absolute;
+	left:210px;
+	top:70px;
+	border: 2px solid white;
+}
+.circle1{
+	height:250px;
+	width:250px;
+	background-color: #1A5D1A;
+	border-radius:50%;
+	position:absolute;
+	right:250px;
+	bottom:350px;
+}
+.circle2{
+	height:200px;
+	width:200px;
+	background-color: #ff7000c2;
+	border-radius:50%;
+	position:absolute;
+	right:270px;
+	bottom:370px;
+	border:2px dashed white;
+}
+.content{
+	margin-left:30px;
+}
+.personname{
+	position:absolute;
+	bottom:240px;
+	font-size:20px;
+	font-weight:600;
+}
+.star{
+	
+	position:absolute;
+	right:255px;
+	bottom:210px;
+}
+.review{
+	position:absolute;
+	top:300px;
+	font-size:18px;
+	font-weight:normal;
+	text-align:justify;
+	margin-right:30px;
+}
+button{
+	height:35px;
+	width:90px;
+	position:absolute;
+	top:500px;
+	border:none;
+	background-color: #ff7000c2;
+	border-radius:5px;
+}
+.music{
+	position:absolute;
+	top:50px;
+	left:40px;
+}
+.form:hover{
+	background-color: #262626;
+	transition: all 0.4s;
+}
